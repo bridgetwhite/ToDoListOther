@@ -1,6 +1,6 @@
 body{
-    font-family: Montserrat;
-    background-color: hotpink;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right, #cc0066 0%, #ff9966 100%);
 }
 
 .container{
@@ -18,10 +18,10 @@ h1{
   margin-bottom: 0px;
 }
 
-h2{
+h5{
     padding-left: 20px;
-    font-size: 20px;
     margin-top: 10px;
+    font-weight: normal;
 }
 .filter{
     display: flex;
@@ -46,7 +46,7 @@ input{
     padding: 15px;
     color: white;
     font-size: 16px;
-    
+
 
 }
 
@@ -59,9 +59,32 @@ input{
     font-size: 150%;
     background-color: lightgray;
     /* border-radius: 10%; */
-    
+
 
 }
+
+#page {
+  padding: 5px 5px;
+  background: white;
+  width:430px;
+  height:150px;
+
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  color: pink;
+  margin-bottom: 20px;
+}
+
+
+.enter {
+  margin-left: 360px;
+  color: pink;
+}
+
 
 /* .list{
     margin-right: 40px;
